@@ -1,0 +1,7 @@
+.card_container {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    padding: 6px;
+    gap: 10px;
+}
