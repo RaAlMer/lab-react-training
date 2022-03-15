@@ -1,6 +1,6 @@
 import './App.css';
 import IdCard from './components/IdCard/IdCard';
-import Greetings from './components/Greetings';
+import Greetings from './components/Greetings/Greetings';
 
 function App() {
   return (
