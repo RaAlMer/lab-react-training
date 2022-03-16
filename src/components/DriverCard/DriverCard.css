@@ -1,0 +1,30 @@
+.driverCard_container {
+    display: flex;
+    justify-content: center;
+    height: 240px;
+    background-color: rgb(49, 88, 245);
+    border-radius: 20px;
+    align-items: center;
+    gap: 20px;
+}
+  
+.driverCard_container img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+}
+
+.infoName {
+    font-size: 36px; 
+}
+
+.infoCar {
+    font-size: 20px;
+}
