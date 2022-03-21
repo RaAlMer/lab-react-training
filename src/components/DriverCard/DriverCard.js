@@ -1,7 +1,7 @@
 import "./DriverCard.css";
-import Rating from "../Rating/Rating";
+import {Rating} from "../../components";
 
-function DriverCard(props) {
+export function DriverCard(props) {
   return (
     <div className="driverCard_container">
       <img src={props.img} alt={props.img} />
@@ -19,5 +19,3 @@ function DriverCard(props) {
     </div>
   );
 }
-
-export default DriverCard;

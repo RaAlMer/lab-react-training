@@ -1,6 +1,6 @@
 import "./BoxColor.css";
 
-function BoxColor (props){
+export function BoxColor (props){
     function componentToHex(c) {
         let hex = c.toString(16);
         return hex.length === 1 ? "0" + hex : hex;
@@ -16,5 +16,3 @@ function BoxColor (props){
         </div>
     );
 };
-
-export default BoxColor;

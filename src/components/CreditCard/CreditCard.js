@@ -2,7 +2,7 @@ import "./CreditCard.css";
 import Visa from "../../assets/images/visa.png";
 import MasterCard from "../../assets/images/master-card.svg";
 
-function CreditCard(props){
+export function CreditCard(props){
     const logo = (type) => {
         if(type === "Visa"){
             return Visa;
@@ -34,5 +34,3 @@ function CreditCard(props){
         </div>
     );
 }
-
-export default CreditCard;

@@ -1,0 +1,14 @@
+.img_container {
+    display: flex;
+    flex-direction: column;
+}
+
+.img_container img {
+    width: 200px;
+}
+
+.img_container button {
+    width: 120px;
+    height: 40px;
+    font-size: 20px;
+}

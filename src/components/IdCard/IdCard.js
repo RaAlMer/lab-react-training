@@ -1,6 +1,6 @@
 import "./IdCard.css";
 
-function IdCard(props){
+export function IdCard(props){
     let options = {weekday: "short", year: "numeric", month: "long", day: "numeric"}
     return (
         <div className="card_container">
@@ -15,5 +15,3 @@ function IdCard(props){
         </div>
     );
 }
-
-export default IdCard;

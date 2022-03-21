@@ -25,10 +25,11 @@
 .expiration {
     display: flex;
     gap: 10px;
-    padding-top: 18px;
+    padding-top: 16px;
 }
 
 .notNumber {
     font-size: 12px;
     padding-left: 6px;
+    margin-top: -10px;
 }

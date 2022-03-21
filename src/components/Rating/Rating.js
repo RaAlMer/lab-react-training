@@ -1,7 +1,7 @@
 import "./Rating.css";
 //import { BsStarFill, BsStar, BsStarHalf } from "react-icons/bs";
 
-function Rating(props) {
+export function Rating(props) {
   const stars = (num) => {
     if (num >= 0.5 && num < 1.5) {
       return "★☆☆☆☆";
@@ -32,5 +32,3 @@ function Rating(props) {
     </div>
   );
 }
-
-export default Rating;

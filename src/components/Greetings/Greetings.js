@@ -1,6 +1,6 @@
 import "./Greeting.css";
 
-function Greetings (props){
+export function Greetings (props){
     switch(props.lang){
         case "de":
             return <div className="lang_container">Hallo {props.children}</div>;
@@ -14,5 +14,3 @@ function Greetings (props){
             return <div className="lang_container">Hello {props.children}</div>
     }
 };
-
-export default Greetings;

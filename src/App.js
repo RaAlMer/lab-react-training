@@ -1,11 +1,5 @@
 import './App.css';
-import IdCard from './components/IdCard/IdCard';
-import Greetings from './components/Greetings/Greetings';
-import Random from "./components/Random/Random";
-import BoxColor from "./components/BoxColor/BoxColor";
-import CreditCard from "./components/CreditCard/CreditCard";
-import Rating from "./components/Rating/Rating";
-import DriverCard from './components/DriverCard/DriverCard';
+import { IdCard, Greetings, Random, BoxColor, CreditCard, Rating, DriverCard, LikeButton, ClickablePicture, Dice, Carousel, NumbersTable } from "./components";
 
 function App() {
   return (
@@ -98,6 +92,26 @@ function App() {
           licensePlate: "BE33ER"
         }}
       />
+
+      <LikeButton />
+
+      <ClickablePicture
+        img='./assets/images/maxence.png'
+        imgClicked='./assets/images/maxence-glasses.png'
+      />
+
+      <Dice />
+
+      <Carousel
+        images={[
+          'https://randomuser.me/api/portraits/women/1.jpg',
+          'https://randomuser.me/api/portraits/men/1.jpg',
+          'https://randomuser.me/api/portraits/women/2.jpg',
+          'https://randomuser.me/api/portraits/men/2.jpg'
+        ]}
+      />
+
+      <NumbersTable limit={12} />
     </div>
   );
 }
