@@ -10,3 +10,7 @@ export { ClickablePicture } from "./ClickablePicture/ClickablePicture";
 export { Dice } from "./Dice/Dice";
 export { Carousel } from "./Carousel/Carousel";
 export { NumbersTable } from "./NumbersTable/NumbersTable";
+export { FaceBook } from "./FaceBook/FaceBook";
+export { SignupPage } from "./SignupPage/SignupPage";
+export { RGBColorPicker } from "./RGBColorPicker/RGBColorPicker";
+export { SingleColorPicker } from "./SingleColorPicker/SingleColorPicker";

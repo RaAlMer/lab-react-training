@@ -1,5 +1,5 @@
 import './App.css';
-import { IdCard, Greetings, Random, BoxColor, CreditCard, Rating, DriverCard, LikeButton, ClickablePicture, Dice, Carousel, NumbersTable } from "./components";
+import { IdCard, Greetings, Random, BoxColor, CreditCard, Rating, DriverCard, LikeButton, ClickablePicture, Dice, Carousel, NumbersTable, FaceBook, SignupPage, RGBColorPicker } from "./components";
 
 function App() {
   return (
@@ -112,6 +112,12 @@ function App() {
       />
 
       <NumbersTable limit={12} />
+
+      <FaceBook />
+
+      <SignupPage />
+
+      <RGBColorPicker />
     </div>
   );
 }

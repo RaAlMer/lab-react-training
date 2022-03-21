@@ -13,11 +13,11 @@ export function NumbersTable({ limit }) {
       {loopNum()}
       {arrayNum.map((elem) =>
         elem % 2 === 0 ? (
-          <div className="number_cell" style={{ backgroundColor: "red" }}>
+          <div key={elem} className="number_cell" style={{ backgroundColor: "red" }}>
             {elem}
           </div>
         ) : (
-          <div className="number_cell" style={{ backgroundColor: "white" }}>
+          <div key={elem} className="number_cell" style={{ backgroundColor: "white" }}>
             {elem}
           </div>
         )

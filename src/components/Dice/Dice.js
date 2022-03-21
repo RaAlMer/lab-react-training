@@ -18,7 +18,7 @@ export function Dice() {
     dice6,
   ];
   const randomDice = () => {
-    let random = Math.floor(Math.random() * (dices.length - 0 + 1) + 0);
+    let random = Math.floor(Math.random() * (dices.length));
     return dices[random];
   };
   const [image, setImage] = useState(randomDice);

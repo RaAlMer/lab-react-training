@@ -9,9 +9,9 @@ export function DriverCard(props) {
         <p className="infoName">
           <b>{props.name}</b>
         </p>
-        <p>
+        <div>
           <Rating children={props.rating} />
-        </p>
+        </div>
         <p className="infoCar">
           {props.car.model} - {props.car.licensePlate}
         </p>

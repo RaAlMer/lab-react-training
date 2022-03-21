@@ -1,0 +1,12 @@
+.profile_container {
+    display: flex;
+    border: 1px solid black;
+}
+
+.profile_container img {
+    width: 120px;
+}
+
+.profile-info {
+    line-height: 20px;
+}
